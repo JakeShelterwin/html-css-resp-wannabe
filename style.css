@@ -85,7 +85,8 @@ img{
 
   /* BLOCCO LEZIONI */
   #lezioni .row > .left, #lezioni .row > .right{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     float: left;
   }
 
@@ -111,8 +112,8 @@ img{
   #steps .row > .central,
   #steps .row > .right{
     float: left;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 5%;
         /* debug */
     /* background-color: lightblue; */
@@ -148,15 +149,13 @@ img{
   }
 
   /* COMMON */
-
   .container.grey{
     background-color: #f9f9f9;
     width: 100%;
   }
 
   img{
-    height: 10%;
-    width: auto;
+    height: 100%;
   }
 
   .clear {
