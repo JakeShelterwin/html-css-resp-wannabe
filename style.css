@@ -1,0 +1,160 @@
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row > .left, #lezioni .row > .right{
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  float: left;
+  width: 33%;
+}
+
+#steps{
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding:30px
+}
+
+/* COMMON */
+
+.container.grey{
+  background-color: #f9f9f9;
+}
+
+img{
+  height: 200px;
+}
+
+.clear {
+  clear:both;
+}
+
+
+/* ************************************************************ */
+/********************** AGGIUNTA DI MEDIAQUERY ******************/
+/* ************************************************************ */
+@media screen and (max-width: 420px){
+  body {
+    background-color: red;
+  }
+
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+    float: left;
+  }
+
+  #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 50%;
+  }
+
+  #lezioni {
+    text-align: center;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: lightblue;
+  }
+
+  #steps{
+    text-align: center;
+  }
+
+  /* BLOCCO PERCHE */
+  #why {
+    text-align: center;
+  }
+
+/* controllo le celle che contengono il testo e immagini con sfondo blu */
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 90%;
+    /* centro il contenuto */
+    margin-left: 5%;
+    /* annullo il margin-top di 80px visto che ho il padding-bottom */
+    margin-top: 0;
+    padding-bottom: 3vh;
+  }
+
+/* controllo le immagini con sfondo azzurro */
+  #why .row img {
+    background-color:#428bca;
+    width: 50%;
+    border-radius:50%;
+    /* padding: 0vh; */
+  }
+
+  /* COMMON */
+
+  .container.grey{
+    /* background-color: #f9f9f9; */
+    background-color: yellow;
+    width: 100%;
+  }
+
+  img{
+    height: 10%;
+    width: auto;
+  }
+
+  .clear {
+    clear:both;
+  }
+}
