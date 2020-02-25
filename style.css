@@ -72,7 +72,8 @@ img{
 /* ************************************************************ */
 @media screen and (max-width: 420px){
   body {
-    background-color: red;
+    /* debug */
+    /* background-color: red; */
   }
 
   .row {
@@ -86,6 +87,10 @@ img{
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
     float: left;
+  }
+
+  #lezioni .row > .left{
+    margin-bottom: 3vh;
   }
 
   #lezioni .row img {
@@ -109,7 +114,8 @@ img{
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
-    background-color: lightblue;
+        /* debug */
+    /* background-color: lightblue; */
   }
 
   #steps{
@@ -144,8 +150,7 @@ img{
   /* COMMON */
 
   .container.grey{
-    /* background-color: #f9f9f9; */
-    background-color: yellow;
+    background-color: #f9f9f9;
     width: 100%;
   }
 
